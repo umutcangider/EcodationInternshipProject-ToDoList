@@ -26,6 +26,7 @@ Register sayfası üzerinden kayıt oluşturup. Login sayfası üzerinden giriş
 Todos sayfası Yapılacaklar Listesinin oluşturalacağı sayfadır. Bu sayfada todo ekleme, güncelleme ve silme işlemlerini yapabilirsiniz.
 
 ![Notifications](/images/notifications/notifications.png)
+
 Todos sayfasında yapılan ekleme, silme, güncelleme ve todo durumunun değiştiğini bildiren uyarılar bulunmakdır.
 
 ![Modals](/images/modal/modals.png)
