@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-field {
+    margin: 5px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    width: 250px;
+    border: 0;
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+}
+
+input {
+    background: #f2f2f2;
+    
+}
+
+/* enable absolute positioning */
+
+.inner-addon {
+    position: relative;
+}
+
+/* style glyph */
+.inner-addon .icon {
+    position: absolute;
+    padding: 25px 15px 25px 25px;
+    color: #23232378;
+    cursor: pointer;
+}
+
+.inner-addon .icon:hover {
+    color: black;
+}
+
+/* align glyph */
+.left-addon .icon {
+    left: 0px;
+}
+
+.right-addon .icon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 50px;
+}
+
+.right-addon input {
+    padding-right: 50px;
+}
+
+.btn-clear {
+    margin-left: 5px;
+    width: 45px;
+}
+
+.btn-login {
+    width: 250px;
+}
+
+.alerts-window {
+    width: 250px;   
+}

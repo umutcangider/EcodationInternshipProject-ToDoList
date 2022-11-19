@@ -1,0 +1,6 @@
+2022-11-18 18:39:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lore... (574)"; SQL statement:
+insert into todo (id, create_date, update_date, description, is_completed, title) values (default, ?, ?, ?, ?, ?) [22001-214]
+2022-11-18 18:39:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ... (445)"; SQL statement:
+insert into todo (id, create_date, update_date, description, is_completed, title) values (default, ?, ?, ?, ?, ?) [22001-214]
